@@ -65,13 +65,14 @@ Run the main script to start training. You can toggle syntactic edges, LDA edges
 
 ```bash
 python run.py --dataset <dataset_name>
-Run with Syntactic Edges and BERT Embeddings:
 ```
+Run with Syntactic Edges and BERT Embeddings:
+
 ```Bash
 python run.py --dataset <dataset_name> --use_syn --use_bert
+```
 Run with all features (Syntactic + LDA + BERT):
 
-```
 ```Bash
 python run.py --dataset <dataset_name> --use_syn --use_LDA --use_bert --epoch 20
 ```
